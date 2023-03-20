@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1.75rem 3rem 3.5rem;
+    min-height: 42px;
+}
+
+@media screen and (max-width: 350px){
+    .header{
+        margin: 1rem 1rem 3rem;
+    }
+}
