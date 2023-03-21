@@ -5,7 +5,7 @@
     min-height: 42px;
 }
 
-@media screen and (max-width: 350px){
+@media screen and (max-width: 620px){
     .header{
         margin: 1rem 1rem 3rem;
     }

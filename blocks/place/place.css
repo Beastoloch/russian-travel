@@ -1,0 +1,21 @@
+.place{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0 calc(100vw / 32);
+}
+
+@media screen and (max-width: 890px){
+    .place{
+        gap: 1em;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .place{
+        gap: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+}

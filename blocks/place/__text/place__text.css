@@ -1,0 +1,23 @@
+.place__text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.625rem;
+    flex-basis: 47%;
+    min-width: min-content;
+}
+
+@media screen and (max-width: 1030px){
+    .place__text{
+        flex-basis: 43vw;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .place__text{
+        max-width: 90%;
+        font-size: 1em;
+        line-height: 1.63rem;
+        gap: 1.563rem;
+    }
+}
+

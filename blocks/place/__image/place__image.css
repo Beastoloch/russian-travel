@@ -1,0 +1,17 @@
+.place__image{
+    max-width: 28.75rem;
+    max-height: 28.75rem;
+    width: 44vw;
+    height: 44vw;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 620px){
+    .place__image{
+        width: 20rem;
+        height: 20rem;
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
+}
+

@@ -8,7 +8,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 340px){
+@media screen and (max-width: 620px){
     .intro__list{
         font-size: 0.75rem;
         line-height: 1.125rem;
