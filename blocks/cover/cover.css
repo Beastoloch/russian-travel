@@ -1,7 +1,6 @@
 .cover{
     max-width: 1184px;
     margin: 0 auto 5.75rem;
-    max-height: 740px;
 }
 
 @media screen and (max-width: 1030px){

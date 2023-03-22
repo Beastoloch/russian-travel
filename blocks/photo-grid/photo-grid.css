@@ -19,5 +19,6 @@
     .photo-grid{
         width: 90%;
         margin: 4rem auto;
+        gap: 0.75rem;
     }
 }

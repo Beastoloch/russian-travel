@@ -17,5 +17,6 @@
 @media screen and (max-width: 620px){
     .place__website{
         width: 90%;
+        margin-bottom: 2rem;
     }
 }

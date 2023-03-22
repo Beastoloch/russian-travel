@@ -19,8 +19,8 @@
     }
 }
 
-@media screen and (max-width: 340px){
-    .intro__title{
-        width: 90%;
+@media screen and (max-width: 620px){
+    .intro{
+        max-width: 90%;
     }
 }
