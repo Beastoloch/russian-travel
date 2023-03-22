@@ -3,12 +3,18 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 0 calc(100vw / 32);
+    gap: 3rem;
+}
+
+@media screen and (max-width: 1030px){
+    .place{
+        gap: 2rem;
+    }
 }
 
 @media screen and (max-width: 890px){
     .place{
-        gap: 1em;
+        gap: 1.75rem;
     }
 }
 
