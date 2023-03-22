@@ -1,12 +1,26 @@
 .header{
     display: flex;
     justify-content: space-between;
-    margin: 1.75rem 3rem 3.5rem;
+    margin: 1.75rem auto 3.5rem;
+    max-width: 74rem;
+    width: calc(100vw - 6rem);
     min-height: 42px;
+}
+
+@media screen and (max-width: 1030px){
+    .header{
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 890px){
+    .header{
+        width: calc(100vw - 3rem);
+    }
 }
 
 @media screen and (max-width: 620px){
     .header{
-        margin: 1rem 1rem 3rem;
+        width: calc(100vw - 2rem);
     }
 }
